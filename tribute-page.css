@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.55;
+    color: rgb(60, 58, 71);
+    background-color: #EEEEEE;
+}
+
+main {
+    margin: 25px auto;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+p {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+
+figure {
+    max-width: 98%;
+    max-height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    margin:auto;
+}
+
+#image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+figcaption {
+    margin: 1rem 0 auto 0;
+}
+
+section {
+    width: 60%;
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+h2 {
+    margin: 0 0 2rem 0;
+}
+
+ul > li {
+    padding: 0.75rem 0;
+}
+
+.year {
+    font-weight: 700;
+}
+
+blockquote p {
+    margin: 2rem 0;
+    text-align: left;
+    font-style: italic;
+    font-weight: 100;
+}
+
+cite {
+    font-weight: 200;
+}
+
+#read-more {
+    margin: 3rem 0;
+}
